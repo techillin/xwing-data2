@@ -25,19 +25,119 @@
   ],
   "faction": "First Order",
   "stats": [
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
+      "type": "Barrel Roll"
+    }
   ],
   "pilots": [
     {
-      "name": "Quickdraw",
+      "name": "\"Backdraft\"",
+      "caption": "Fiery Fanatic",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 41,
+      "xws": "backdraft",
+      "ability": "While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc] roll 1 additional die.",
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/51/c7/51c7c18a-1e8e-4f11-9cc9-aa6a7c95cc52/swz18_backdraft_a3.png"
+    },
+    {
+      "name": "\"Quickdraw\"",
       "caption": "Defiant Duelist",
       "initiative": 6,
       "limited": 1,
       "cost": 45,
       "xws": "quickdraw",
-      "ability": "???"
+      "ability": "After you lose a shield, you may spend 1 [Charge]. If you do, you may perform a bonus primary attack.",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/92/68/92683f2f-a52c-49ba-a203-1d819cab6f2c/swz18_quickdraft_a3.png"
+    },
+    {
+      "name": "Omega Squadron Expert",
+      "initiative": 3,
+      "limited": 0,
+      "cost": 36,
+      "xws": "omegasquadronexpert",
+      "text": "The TIE/sf is a versatile starfighter that specialized armaments and experimental systems for long-range operations for First Order Special Forces.",
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      }
+    },
+    {
+      "name": "Zeta Squadron Survivor",
+      "initiative": 2,
+      "limited": 0,
+      "cost": 34,
+      "xws": "zetasquadronsurvivor",
+      "text": "Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.",
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      }
     }
   ]
 }

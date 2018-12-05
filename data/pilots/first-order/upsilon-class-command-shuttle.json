@@ -1,0 +1,154 @@
+{
+  "name": "Upsilon-class command shuttle",
+  "xws": "upsilonclassshuttle",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1TR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR"
+  ],
+  "faction": "First Order",
+  "stats": [{
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 6
+    }
+  ],
+  "actions": [{
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
+  ],
+  "pilots": [{
+      "name": "Captain Cardinal",
+      "caption": "Principled Instructor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 64,
+      "xws": "captaincardinal",
+      "ability": "While a friendly ship at range 1-2 with lower initiative than you defends or performs an attack, if you ahve at least 1 [Charge], that ship may reroll 1 [Focus] result. After an enemy ship are range 0-3 is destroyed, lose 1 [Charge].",
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      }
+    },
+    {
+      "name": "Lieutenant Dormitz",
+      "caption": "Hypercomms Specialist",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 60,
+      "xws": "lieutenantdormitz",
+      "ability": "Setup: After you are placed, other friendly ships can be placed anywhere in the play area at range 0-2 of you.",
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      }
+    },
+    {
+      "name": "Lieutenant Tavson",
+      "caption": "Obedient Shuttle Pilot",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 62,
+      "xws": "lieutenanttavson",
+      "ability": "After you suffer damage, you may spend 1 [Charge] to perform an action.",
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      }
+    },
+    {
+      "name": "Major Stridan",
+      "caption": "Stentorian Commander",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 63,
+      "xws": "majorstridan",
+      "ability": "While you coordinate or resolve the effect of one of your upgrades, you may treat friendly ships at range 2-3 as being at range 0 or range 1.",
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/1b/2c/1b2cbc1c-7e49-4f9d-b25a-b72d7319b90b/swz18_major-stridan_a2.png"
+    },
+    {
+      "name": "Petty Officer Thanisson",
+      "caption": "Alert Flight Controller",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 60,
+      "xws": "pettyofficerthanisson",
+      "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 stress token, you may spend 1 [Charge]. If you do, that ship gains 1 tractor token.",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      }
+    },
+    {
+      "name": "Starkiller Base Pilot",
+      "initiative": 2,
+      "limited": 0,
+      "cost": 56,
+      "xws": "starkillerbasepilot",
+      "text": "The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.",
+      "shipAbility": {
+        "name": "Linked Battery",
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
+      }
+    }
+  ]
+}

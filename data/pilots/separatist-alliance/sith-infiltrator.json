@@ -59,6 +59,14 @@
   ],
   "pilots": [
     {
+      "name": "Count Dooku",
+      "caption": "???",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "countdooku",
+      "ability": "???"
+    },
+    {
       "name": "Darth Maul",
       "caption": "Sith Assassin",
       "initiative": 5,

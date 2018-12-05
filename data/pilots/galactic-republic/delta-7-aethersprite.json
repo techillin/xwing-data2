@@ -76,6 +76,17 @@
       }
     },
     {
+      "name": "Ahsoka Tano",
+      "caption": "???",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "ahsokatano",
+      "shipAbility": {
+        "name": "Unknown",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      }
+    },
+    {
       "name": "Obi-Wan Kenobi",
       "initiative": 5,
       "limited": 1,
