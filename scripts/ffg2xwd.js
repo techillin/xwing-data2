@@ -51,7 +51,7 @@ const str2filename = str =>
     .replace(/\//g, "-");
 
 const saveShips = ships => {
-  Object.entries(ships).forEach(([shipXws, ship]) => {
+  Object.entries(ships).forEach(([_, ship]) => {
     const filename = `${str2filename(ship.name)}.json`;
     const faction = str2filename(ship.faction);
     const path = [dataRoot, "pilots", faction, filename].join("/");
@@ -66,7 +66,7 @@ const saveShips = ships => {
       ...xwingDataFile.pilots
         .concat(ship.pilots)
         .reduce(
-          (m, o) => m.set(o.xws, Object.assign(m.get(o.xws) || {}, o)),
+          (m, o) => m.set(o.name, Object.assign(m.get(o.name) || {}, o)),
           new Map()
         )
         .values()
@@ -81,13 +81,16 @@ const generateXws = (str = "") => {
     .replace(/[^a-z0-9]/g, "");
 };
 
-const parseSlots = available_upgrades => {
-  return available_upgrades.map(id => {
-    const upgradeType = metadata.upgrade_types[id];
-    if (!upgradeType) throw new Error(`Could not find upgrade type ${id}`);
-    return upgradeType.name;
-  });
-};
+const parseSlots = available_upgrades =>
+  available_upgrades
+    // Remove "Special" slot with id 999
+    .filter(id => id !== 999)
+    // Convert slot id to slot name
+    .map(id => {
+      const upgradeType = metadata.upgrade_types[id];
+      if (!upgradeType) throw new Error(`Could not find upgrade type ${id}`);
+      return upgradeType.name;
+    });
 
 const getForceSide = force_side =>
   metadata.force_affiliation[force_side].name.toLowerCase();
@@ -212,7 +215,7 @@ const processShip = ({
     initiative: initiative || 0,
     limited: is_unique ? 1 : 0,
     cost: parseInt(cost, 10),
-    xws: generateXws(name),
+    // xws: generateXws(name),
     image: card_image || "",
     artwork: image,
     ffg: id,
