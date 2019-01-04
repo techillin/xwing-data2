@@ -73,6 +73,7 @@ const keywordsMap = {
   SENSOR: "Sensor",
   LEFTARC: "Left Arc",
   RIGHTARC: "Right Arc",
+  BREAK: " ",
 
   // These are all in ffg card text and should be removed
   NONBREAK: "",
