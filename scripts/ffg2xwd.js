@@ -76,7 +76,9 @@ const saveShips = ships => {
 };
 
 const generateXws = (str = "") => {
-  return str.toLowerCase().replace(/[^a-z0-9]/g, "");
+  return Keywords.replace(str)
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
 };
 
 const parseSlots = available_upgrades => {
@@ -122,7 +124,6 @@ const parseStats = (statistics, { force_side }) => {
         };
         break;
       case "Force":
-        console.log({ force_side });
         force = {
           value: parseInt(value, 10),
           recovers: recurring ? 1 : 0,
@@ -169,8 +170,8 @@ const parseActions = available_actions => {
 };
 
 const parseShipAbility = str => {
-  const [name, text] = Keywords.replace(str).split(":");
-  return { name, text: text.trim() };
+  const [name, ...text] = Keywords.replace(str).split(":");
+  return { name, text: text.join(": ").trim() };
 };
 
 const processShipName = str =>
@@ -208,7 +209,7 @@ const processShip = ({
 
   pilot = {
     ...pilot,
-    initiative,
+    initiative: initiative || 0,
     limited: is_unique ? 1 : 0,
     cost: parseInt(cost, 10),
     xws: generateXws(name),
@@ -241,9 +242,11 @@ const processShip = ({
     Keywords.replace(metadata.ship_types[ship_type].name)
   );
   const shipXws = generateXws(shipName);
+  const shipUniqueKey = `${shipXws}-${faction_id}`;
 
-  if (!ships[shipXws]) {
-    const ship = {
+  if (!ships[shipUniqueKey]) {
+    // console.log(`Creating ship ${shipName}`);
+    ships[shipUniqueKey] = {
       name: shipName,
       xws: shipXws,
       ffg: ship_type,
@@ -254,14 +257,10 @@ const processShip = ({
       actions: parseActions(available_actions),
       pilots: []
     };
-
-    console.log(`Creating ship ${shipName}`);
-    ships[shipXws] = ship;
-    console.log(ship);
   }
 
-  console.log(`Adding pilot ${pilot.name} (${ships[shipXws].name})`);
-  ships[shipXws].pilots.push(pilot);
+  // console.log(`Adding pilot ${pilot.name} (${ships[shipXws].name})`);
+  ships[shipUniqueKey].pilots.push(pilot);
 };
 
 run();

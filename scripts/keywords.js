@@ -30,6 +30,7 @@ const keywordsMap = {
   FRONT180ARC: "Full Front Arc",
   FULLFRONTARC: "Full Front Arc",
   FULLREARARC: "Full Rear Arc",
+  FULLREAR: "Full Rear Arc",
   GUNNER: "Gunner",
   HIT: "Hit",
   ILLICIT: "Illicit",
@@ -49,7 +50,6 @@ const keywordsMap = {
   RBANK: "Bank Right",
   RIGHTBANK: "Bank Right",
   Rear: "Rear Arc",
-  FULLREAR: "Rear Arc",
   REARARC: "Rear Arc",
   REINFORCE: "Reinforce",
   RELOAD: "Reload",
@@ -109,7 +109,7 @@ module.exports = {
         }
         return `[${keywordsMap[keyword]}]`;
       })
-      .replace(/\–/g, "-")
+      .replace(/[–—]/g, "-")
       .replace(/\’/g, "'")
       .replace(/\“/g, '"')
       .replace(/\”/g, '"')
