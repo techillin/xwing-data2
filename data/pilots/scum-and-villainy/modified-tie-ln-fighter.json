@@ -22,7 +22,7 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 3 }
   ],

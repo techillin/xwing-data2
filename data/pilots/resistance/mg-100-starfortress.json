@@ -21,8 +21,8 @@
   ],
   "faction": "Resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
+    { "type": "attack", "value": 2, "arc": "Double Turret Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 9 },
     { "type": "shields", "value": 3 }
@@ -46,13 +46,13 @@
       "cost": 63,
       "slots": [
         "Sensor",
-        "Tech",
         "Crew",
-        "Gunner",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner",
+        "Gunner",
+        "Tech"
       ],
       "ffg": 434,
       "hyperspace": true
@@ -69,13 +69,13 @@
       "cost": 64,
       "slots": [
         "Sensor",
-        "Tech",
         "Crew",
-        "Gunner",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner",
+        "Gunner",
+        "Tech"
       ],
       "ffg": 433,
       "hyperspace": true
@@ -92,13 +92,13 @@
       "cost": 67,
       "slots": [
         "Sensor",
-        "Tech",
         "Crew",
-        "Gunner",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner",
+        "Gunner",
+        "Tech"
       ],
       "ffg": 448,
       "hyperspace": true
@@ -116,13 +116,13 @@
       "conditions": ["rattled"],
       "slots": [
         "Sensor",
-        "Tech",
         "Crew",
-        "Gunner",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner",
+        "Gunner",
+        "Tech"
       ],
       "ffg": 432,
       "hyperspace": true
@@ -139,13 +139,13 @@
       "cost": 69,
       "slots": [
         "Sensor",
-        "Tech",
         "Crew",
-        "Gunner",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner",
+        "Gunner",
+        "Tech"
       ],
       "ffg": 447,
       "hyperspace": true
@@ -162,13 +162,13 @@
       "cost": 70,
       "slots": [
         "Sensor",
-        "Tech",
         "Crew",
-        "Gunner",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner",
+        "Gunner",
+        "Tech"
       ],
       "ffg": 431,
       "hyperspace": true

@@ -24,7 +24,7 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 5 },
     { "type": "shields", "value": 4 }
@@ -43,7 +43,7 @@
       "limited": 1,
       "cost": 49,
       "xws": "4lom",
-      "ability": "After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
+      "ability": "After you fully execute a red maneuver, gain 1 calculate token.At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_201.png",
       "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
       "shipActions": [

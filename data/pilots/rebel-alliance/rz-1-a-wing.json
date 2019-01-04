@@ -24,7 +24,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 2 },
     { "type": "shields", "value": 2 }
@@ -45,7 +45,7 @@
       "limited": 1,
       "cost": 36,
       "xws": "arvelcrynyd",
-      "ability": "You can perform primary attacks at range 0. If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.",
+      "ability": "You can perform primary attacks at range 0.If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_20.png",
       "shipAbility": {
         "name": "Vectored Thrusters",

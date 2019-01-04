@@ -27,7 +27,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 3 },
     { "type": "shields", "value": 3 }
@@ -38,13 +38,13 @@
     { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
-      "type": "Barrel Roll"
+      "type": "Barrel Roll",
+      "linked": { "difficulty": "Red", "type": "Lock" }
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
-      "type": "Boost"
+      "type": "Boost",
+      "linked": { "difficulty": "Red", "type": "Lock" }
     }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_E-wing.png",

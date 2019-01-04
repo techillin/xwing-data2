@@ -18,7 +18,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Double Turret Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 3 }
@@ -26,7 +26,7 @@
   "actions": [
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "SLAM" },
+    { "difficulty": "White", "type": "Slam" },
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "White", "type": "Reload" }
   ],
@@ -45,11 +45,11 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Crew",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg",
       "ffg": 63,
@@ -68,11 +68,11 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Crew",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg",
       "ffg": 62,
@@ -90,11 +90,11 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Crew",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg",
       "ffg": 64,

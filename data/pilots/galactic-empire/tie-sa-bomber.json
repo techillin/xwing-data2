@@ -23,7 +23,7 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 6 }
   ],
@@ -32,8 +32,8 @@
     { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
-      "type": "Barrel Roll"
+      "type": "Barrel Roll",
+      "linked": { "difficulty": "Red", "type": "Lock" }
     },
     { "difficulty": "Red", "type": "Reload" }
   ],
@@ -56,10 +56,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg",
       "ffg": 110,
@@ -83,10 +83,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg",
       "ffg": 108,
@@ -109,10 +109,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg",
       "ffg": 111,
@@ -136,10 +136,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg",
       "ffg": 109,
@@ -161,10 +161,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg",
       "ffg": 112,
@@ -177,7 +177,7 @@
       "limited": 1,
       "cost": 34,
       "xws": "tomaxbren",
-      "ability": "After you perform a [Reload] action, you may revocer 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
+      "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_107.png",
       "shipAbility": {
         "name": "Nimble Bomber",
@@ -188,10 +188,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg",
       "ffg": 107,

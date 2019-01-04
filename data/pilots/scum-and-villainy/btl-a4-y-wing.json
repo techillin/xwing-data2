@@ -22,7 +22,7 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 2 }
@@ -46,11 +46,11 @@
       "slots": [
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg",
       "ffg": 168,
@@ -68,11 +68,11 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_166.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg",
@@ -91,11 +91,11 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg",
       "ffg": 167,
@@ -114,11 +114,11 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg",
       "ffg": 165,

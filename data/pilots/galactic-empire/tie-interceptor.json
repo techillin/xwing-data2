@@ -1,6 +1,6 @@
 {
   "name": "TIE Interceptor",
-  "xws": "tieininterceptor",
+  "xws": "tieinterceptor",
   "ffg": 41,
   "size": "Small",
   "dial": [
@@ -24,7 +24,7 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 3 }
   ],

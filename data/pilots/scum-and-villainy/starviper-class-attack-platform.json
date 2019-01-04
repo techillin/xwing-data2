@@ -23,23 +23,23 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 4 },
     { "type": "shields", "value": 1 }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Calculate" },
     { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
-      "type": "Barrel Roll"
+      "type": "Barrel Roll",
+      "linked": { "difficulty": "Red", "type": "Calculate" }
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
-      "type": "Boost"
+      "type": "Boost",
+      "linked": { "difficulty": "Red", "type": "Calculate" }
     }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_StarViper.png",
@@ -85,7 +85,7 @@
       "limited": 1,
       "cost": 54,
       "xws": "dalanoberos-starviperclassattackplatform",
-      "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90˚.",
+      "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90º.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_179.png",
       "shipAbility": {
         "name": "Microthrusters",

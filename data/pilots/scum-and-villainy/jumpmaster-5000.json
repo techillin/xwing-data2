@@ -23,7 +23,7 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Single Turret Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 3 }
@@ -31,13 +31,13 @@
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-      "type": "Focus"
+      "type": "Focus",
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" }
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-      "type": "Lock"
+      "type": "Lock",
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" }
     },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
@@ -51,7 +51,7 @@
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
-      "slots": ["Crew", "Torpedo", "Illicit", "Modification", "Title"],
+      "slots": ["Torpedo", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
       "ffg": 217,
       "hyperspace": false
@@ -63,7 +63,7 @@
       "limited": 1,
       "cost": 64,
       "xws": "dengar",
-      "ability": "After you defend, if the attcker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png",
       "alt": [
         {
@@ -74,8 +74,8 @@
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
-        "Crew",
         "Torpedo",
+        "Crew",
         "Illicit",
         "Modification",
         "Title"
@@ -95,8 +95,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png",
       "slots": [
         "Talent",
-        "Crew",
         "Torpedo",
+        "Crew",
         "Illicit",
         "Modification",
         "Title"
@@ -117,8 +117,8 @@
       "charges": { "value": 1, "recovers": 0 },
       "slots": [
         "Talent",
-        "Crew",
         "Torpedo",
+        "Crew",
         "Illicit",
         "Modification",
         "Title"

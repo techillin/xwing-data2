@@ -25,7 +25,7 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 3 },
     { "type": "shields", "value": 4 }

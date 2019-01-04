@@ -24,7 +24,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 4 },
+    { "type": "attack", "value": 4, "arc": "Double Turret Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 4 }
@@ -59,10 +59,10 @@
       "slots": [
         "Missile",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg",
       "ffg": 78,
@@ -85,10 +85,10 @@
         "Talent",
         "Missile",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg",
       "ffg": 77,
@@ -109,10 +109,10 @@
       "slots": [
         "Missile",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg",
       "ffg": 79,

@@ -22,7 +22,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Single Turret Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 3 },
     { "type": "shields", "value": 2 }
@@ -30,13 +30,13 @@
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-      "type": "Focus"
+      "type": "Focus",
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" }
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-      "type": "Lock"
+      "type": "Lock",
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" }
     },
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "White", "type": "Rotate Arc" },

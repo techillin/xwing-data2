@@ -24,8 +24,8 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
+    { "type": "attack", "value": 3, "arc": "Rear Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 4 }
@@ -164,7 +164,7 @@
       "limited": 1,
       "cost": 70,
       "xws": "krassistrelix",
-      "ability": "You can perform [Front Arc] special attacks from your [Rear Arc]. While you perform a special attack, you may reroll 1 attack die.",
+      "ability": "You can perform [Front Arc] special attacks from your [Rear Arc].While you perform a special attack, you may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_153.png",
       "slots": [
         "Talent",

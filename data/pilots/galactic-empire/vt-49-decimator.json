@@ -23,7 +23,7 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Double Turret Arc" },
     { "type": "agility", "value": 0 },
     { "type": "hull", "value": 12 },
     { "type": "shields", "value": 4 }
@@ -51,10 +51,10 @@
         "Torpedo",
         "Crew",
         "Crew",
-        "Gunner",
         "Device",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg",
       "ffg": 146,
@@ -72,10 +72,10 @@
         "Torpedo",
         "Crew",
         "Crew",
-        "Gunner",
         "Device",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg",
       "ffg": 148,
@@ -95,10 +95,10 @@
         "Torpedo",
         "Crew",
         "Crew",
-        "Gunner",
         "Device",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg",
       "ffg": 147,

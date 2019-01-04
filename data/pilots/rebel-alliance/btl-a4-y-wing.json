@@ -22,7 +22,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 2 }
@@ -48,10 +48,10 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg",
       "ffg": 14,
@@ -70,10 +70,10 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg",
       "ffg": 16,
@@ -91,10 +91,10 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "alt": [
         {
@@ -117,10 +117,10 @@
       "slots": [
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg",
       "ffg": 18,
@@ -139,10 +139,10 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg",
       "ffg": 15,
@@ -161,10 +161,10 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg",
       "ffg": 13,

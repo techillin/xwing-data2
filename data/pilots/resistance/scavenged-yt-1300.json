@@ -23,7 +23,7 @@
   ],
   "faction": "Resistance",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Double Turret Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 8 },
     { "type": "shields", "value": 3 }
@@ -49,10 +49,10 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "ffg": 430,
       "hyperspace": true
@@ -63,7 +63,7 @@
       "initiative": 4,
       "limited": 1,
       "xws": "chewbacca-scavengedyt1300",
-      "ability": "After a friendly ship at range 0-3 is destroyed, you may perform an action. Then you may perform a bonus attack.",
+      "ability": "After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/422fc30e0e10445e80b304ef2d96dc06.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c40ec30b7df138c4510b08f4f02d54b5.jpg",
       "cost": 72,
@@ -72,10 +72,10 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "ffg": 429,
       "hyperspace": true
@@ -95,10 +95,10 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "ffg": 427,
       "hyperspace": true
@@ -115,14 +115,14 @@
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "cost": 80,
       "slots": [
-        "Force Power",
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner",
+        "Force Power"
       ],
       "ffg": 428,
       "hyperspace": true

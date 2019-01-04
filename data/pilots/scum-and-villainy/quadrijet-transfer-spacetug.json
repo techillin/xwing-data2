@@ -25,7 +25,7 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 5 }
   ],
@@ -38,7 +38,7 @@
   "pilots": [
     {
       "name": "Constable Zuvio",
-      "caption": "Missing Sheriff of Nima Outpost",
+      "caption": "Missing Sherriff of Niima Outpost",
       "initiative": 4,
       "limited": 1,
       "cost": 33,
@@ -47,9 +47,9 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_161.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
-        "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
+        "text": "Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Talent", "Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Talent", "Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
       "ffg": 161,
       "hyperspace": false
@@ -60,13 +60,13 @@
       "limited": 0,
       "cost": 28,
       "xws": "jakkugunrunner",
-      "text": "The Quadrijet transfer spacetug, commonly called a \"Quadjumper\" is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
+      "text": "The Quadrijet transfer spacetug, commonly called a \"Quadjumper,\" is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_164.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
-        "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
+        "text": "Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
       "ffg": 164,
       "hyperspace": false
@@ -82,9 +82,9 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_162.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
-        "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
+        "text": "Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg",
       "ffg": 162,
       "hyperspace": false
@@ -100,9 +100,9 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_163.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
-        "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
+        "text": "Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
       "ffg": 163,
       "hyperspace": false

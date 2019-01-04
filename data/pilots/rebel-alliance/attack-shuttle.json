@@ -24,7 +24,7 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 3 },
     { "type": "shields", "value": 1 }
@@ -34,8 +34,8 @@
     { "difficulty": "White", "type": "Evade" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Evade" },
-      "type": "Barrel Roll"
+      "type": "Barrel Roll",
+      "linked": { "difficulty": "Red", "type": "Evade" }
     }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_AttackShuttle.png",
@@ -72,7 +72,7 @@
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Force Power", "Turret", "Crew", "Modification", "Title"],
+      "slots": ["Turret", "Crew", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg",
       "ffg": 36,
       "hyperspace": false

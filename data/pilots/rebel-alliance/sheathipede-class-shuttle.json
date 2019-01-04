@@ -23,8 +23,8 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
+    { "type": "attack", "value": 2, "arc": "Rear Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 4 },
     { "type": "shields", "value": 1 }
@@ -82,14 +82,14 @@
       "limited": 1,
       "cost": 42,
       "xws": "ezrabridger-sheathipedeclassshuttle",
-      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
+      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] /[Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Force Power", "Crew", "Astromech", "Modification", "Title"],
+      "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
       "ffg": 39,
       "hyperspace": false

@@ -20,7 +20,7 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 2 },
     { "type": "shields", "value": 2 }
@@ -54,7 +54,8 @@
       "slots": [],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg",
       "ffg": 229,
-      "hyperspace": true
+      "hyperspace": true,
+      "ability": "Sometimes, manufacturer's warnings are made to be broken."
     },
     {
       "name": "L3-37",

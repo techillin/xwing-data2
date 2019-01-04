@@ -22,7 +22,7 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 1 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 3 }
@@ -33,8 +33,8 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
-      "type": "Boost"
+      "type": "Boost",
+      "linked": { "difficulty": "Red", "type": "Lock" }
     },
     { "difficulty": "White", "type": "Reload" }
   ],
@@ -54,10 +54,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg",
       "ffg": 140,
@@ -76,10 +76,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg",
@@ -99,10 +99,10 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg",
       "ffg": 141,

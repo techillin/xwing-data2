@@ -23,7 +23,7 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "attack", "value": 2, "arc": "Front Arc" },
     { "type": "agility", "value": 3 },
     { "type": "hull", "value": 3 }
   ],
@@ -97,7 +97,7 @@
       "limited": 1,
       "cost": 30,
       "xws": "wampa",
-      "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
+      "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die.After defending, lose 1 [Charge].",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_89.png",
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Modification"],
@@ -212,7 +212,7 @@
       "limited": 1,
       "cost": 30,
       "xws": "seynmarana",
-      "ability": "While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel you remaining results.",
+      "ability": "While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_86.png",
       "charges": { "value": 1, "recovers": 0 },
       "slots": ["Talent", "Modification"],
